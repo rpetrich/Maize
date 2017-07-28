@@ -1,6 +1,8 @@
 
 #import <MaizeUI/MZELayoutOptions.h>
+#import <UIKit/UIKit.h>
 #import <FlipSwitch/FlipSwitch+NSBundle.h>
+#import <dlfcn.h>
 
 static NSMutableDictionary *mze_templateDict;
 static NSString *sizeStuff;
@@ -42,7 +44,7 @@ static NSString *sizeStuff;
 			return mze_templateDict;
 		}
 		NSMutableDictionary *dict = %orig;
-		HBLogInfo(@"MZEORIGDICT: %@", dict);
+		//HBLogInfo(@"MZEORIGDICT: %@", dict);
 		if (dict) {
 			//return dict;
 
@@ -115,7 +117,7 @@ static NSString *sizeStuff;
 			// 	return final;
 			// }
 
-			HBLogInfo(@"MUTDICT: %@", modified);
+			//HBLogInfo(@"MUTDICT: %@", modified);
 			mze_templateDict = modified;
 			return modified;
 		} else return dict;

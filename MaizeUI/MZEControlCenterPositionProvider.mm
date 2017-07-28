@@ -3,6 +3,7 @@
 #import "BinPack/Rect.h"
 
 #import <MaizeServices/MZEModuleRepository.h>
+#import <UIKit/UIKit.h>
 
 struct RectSize
 {
@@ -127,11 +128,11 @@ struct MZEModuleCoordinate MZEModuleCoordinateMake(long long row, long long col)
 
 	// }
 
-	HBLogInfo(@"INSERTED STUFF");
-	for(std::vector<rbp::Rect>::iterator it = outputRects.begin(); it != outputRects.end(); ++it) {
-		HBLogInfo(@"X:%@ Y:%@ W:%@ H: %@", [NSNumber numberWithInteger:it->x],[NSNumber numberWithInteger:it->y],[NSNumber numberWithInteger:it->width],[NSNumber numberWithInteger:it->height]);
-    	//it->doSomething();
- 	}
+	// HBLogInfo(@"INSERTED STUFF");
+	// for(std::vector<rbp::Rect>::iterator it = outputRects.begin(); it != outputRects.end(); ++it) {
+	// 	HBLogInfo(@"X:%@ Y:%@ W:%@ H: %@", [NSNumber numberWithInteger:it->x],[NSNumber numberWithInteger:it->y],[NSNumber numberWithInteger:it->width],[NSNumber numberWithInteger:it->height]);
+ //    	//it->doSomething();
+ // 	}
 }
 
 - (NSMutableDictionary *)orderedStuff {

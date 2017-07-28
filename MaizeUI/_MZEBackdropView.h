@@ -1,3 +1,5 @@
+#import <UIKit/UIKit.h>
+
 @interface _MZEBackdropView : UIView {
 	CGFloat _brightness;
 	CGFloat _saturation;

@@ -266,7 +266,7 @@
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-	HBLogInfo(@"STARTED TOYCHING THINGY");
+	// HBLogInfo(@"STARTED TOYCHING THINGY");
 	if (![self isExpanded]) {
 		UITouch *touch = [[event allTouches] anyObject];
     	CGPoint touchLocation = [touch locationInView:self.view];

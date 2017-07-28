@@ -1,7 +1,8 @@
+#import <QuartzCore/QuartzCore.h>
 #import <QuartzCore/CALayer+Private.h>
 #import <QuartzCore/CAPackage+Private.h>
 #import <QuartzCore/CAStateController+Private.h>
-
+#import <UIKit/UIKit.h>
 
 #if __cplusplus
 	extern "C" {

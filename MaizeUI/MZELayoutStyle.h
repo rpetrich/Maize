@@ -1,3 +1,5 @@
+#import <CoreGraphics/CoreGraphics.h>
+
 @interface MZELayoutStyle : NSObject
 @property (nonatomic, assign) CGFloat columns;
 @property (nonatomic, assign) CGFloat rows;

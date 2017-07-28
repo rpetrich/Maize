@@ -78,7 +78,7 @@
 				}
 			}
 		} else {
-			HBLogError(@"%@", error);
+			//HBLogError(@"%@", error);
 		}
 	}
 

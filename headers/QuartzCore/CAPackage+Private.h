@@ -1,3 +1,5 @@
+#import <QuartzCore/QuartzCore.h>
+
 extern NSString* const kCAPackageTypeCAMLBundle;
 
 @interface CAPackage : NSObject

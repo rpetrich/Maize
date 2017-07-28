@@ -116,7 +116,7 @@ void MaxRectsBinPack::Insert(std::vector<RectSize> rects, std::vector<Rect> dst,
 	}
 
 	for(std::vector<rbp::Rect>::iterator it = dst.begin(); it != dst.end(); ++it) {
-		HBLogInfo(@"X:%@ Y:%@ W:%@ H: %@", [NSNumber numberWithInteger:it->x],[NSNumber numberWithInteger:it->y],[NSNumber numberWithInteger:it->width],[NSNumber numberWithInteger:it->height]);
+		//HBLogInfo(@"X:%@ Y:%@ W:%@ H: %@", [NSNumber numberWithInteger:it->x],[NSNumber numberWithInteger:it->y],[NSNumber numberWithInteger:it->width],[NSNumber numberWithInteger:it->height]);
     	//it->doSomething();
  	}
 }
@@ -137,7 +137,7 @@ void MaxRectsBinPack::PlaceRect(const Rect &node)
 	PruneFreeList();
 
 	usedRectangles.push_back(node);
-	HBLogInfo(@"PLACE RECT - X:%@ Y:%@ W:%@ H: %@", [NSNumber numberWithInteger:node.x],[NSNumber numberWithInteger:node.y],[NSNumber numberWithInteger:node.width],[NSNumber numberWithInteger:node.height]);
+	//HBLogInfo(@"PLACE RECT - X:%@ Y:%@ W:%@ H: %@", [NSNumber numberWithInteger:node.x],[NSNumber numberWithInteger:node.y],[NSNumber numberWithInteger:node.width],[NSNumber numberWithInteger:node.height]);
 	//		dst.push_back(bestNode); ///\todo Refactor so that this compiles.
 }
 

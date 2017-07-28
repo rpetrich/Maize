@@ -1,3 +1,5 @@
+#import <UIKit/UIKit.h>
+
 @interface _UIBackdropViewSettings : NSObject
                               //@synthesize backdrop=_backdrop - In the implementation block
 @property (nonatomic,readonly) NSInteger style;                                          //@synthesize style=_style - In the implementation block

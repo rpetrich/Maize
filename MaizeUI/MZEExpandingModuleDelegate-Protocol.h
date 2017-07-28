@@ -1,3 +1,5 @@
+#import <UIKit/UIKit.h>
+
 @protocol MZEExpandingModuleDelegate <NSObject>
 @required
 - (CGFloat)prefferedContentExpandedWidth;

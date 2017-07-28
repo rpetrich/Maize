@@ -1,3 +1,5 @@
+#import <CoreGraphics/CoreGraphics.h>
+
 @interface MZELayoutOptions : NSObject
 + (CGFloat)itemSpacingSize;
 + (CGFloat)edgeSize;

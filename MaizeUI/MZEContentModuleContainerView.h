@@ -1,3 +1,5 @@
+#import <UIKit/UIKit.h>
+
 @class MZEContentModuleContainerViewController;
 
 @interface MZEContentModuleContainerView : UIView

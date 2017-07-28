@@ -1,3 +1,5 @@
+#import <CoreGraphics/CoreGraphics.h>
+
 @protocol MZEContentModuleContentViewController <NSObject>
 @property(readonly, nonatomic) CGFloat preferredExpandedContentHeight;
 

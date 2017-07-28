@@ -1,5 +1,5 @@
 #import "MZEModuleSliderView.h"
-
+/*
 #if __cplusplus
     extern "C" {
 #endif
@@ -53,7 +53,7 @@
             [self setNeedsLayout];
         }
     } else {
-        HBLogError(@"Slider tried to step when it isn't a step slider");
+        //HBLogError(@"Slider tried to step when it isn't a step slider");
     }
 }
 
@@ -101,7 +101,7 @@
             // Remove Styling
         }
 
-        _glyphImageView.alpha = _glyphVisible ? : 1.0 : 0.0;
+        _glyphImageView.alpha = _glyphVisible ? 1.0 : 0.0;
 
     }
 }
@@ -112,7 +112,7 @@
         if (!_glyphPackageView) {
             _glyphPackageView = [[MZECAPackageView alloc] init];
             [_glyphPackageView setStateName:[self glyphState]];
-            [_glyphPackageView setAutoResizingMask:0];
+            [_glyphPackageView setAutoresizingMask:0];
             [self addSubview:_glyphPackageView];
         }
         [_glyphPackageView setPackage:_glyphPackage];
@@ -125,7 +125,7 @@
         [_glyphPackageView setStateName:_glyphState];
     }
 
-        _glyphPackageView.alpha = _glyphVisible ? : 1.0 : 0.0;
+        _glyphPackageView.alpha = _glyphVisible ? 1.0 : 0.0;
 }
 
 - (void)layoutSubviews {
@@ -144,7 +144,7 @@
 
     if (_glyphPackage) {
         _glyphPackageView.center = center;
-        _glyphPackageView.alpha = _glyphVisible ? : 1.0 : 0.0;
+        _glyphPackageView.alpha = _glyphVisible ? 1.0 : 0.0;
     }
 }
 
@@ -161,7 +161,7 @@
                 [self sendActionsForControlEvents:UIControlEventValueChanged];
                 _previousValue = _value;
             }
-        }]
+        }];
     }
 
     if ([self isStepped]) {
@@ -233,3 +233,4 @@
 }
 
 @end
+*/
